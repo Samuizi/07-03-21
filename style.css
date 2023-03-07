@@ -1,0 +1,61 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css);
+
+body {
+    height: 50vh;
+    font-family:'Lora';
+    font-size: 1.5;
+    background-color: #fff;
+    background-image: url(img/sidney-pearce-yPMJliKzyc4-unsplash.jpg);
+    background-size: cover;
+    background-attachment: scroll; 
+}
+
+.box {
+    background: #e91e63;
+    padding: 40px 60px;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    margin: 25vh auto;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+    
+}
+
+.box h3{
+    font-size:30px;
+    font-weight:400;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.box p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box span{
+    font-size: 23px;
+}
+
+.box img {
+    width: 100px;
+}
+
+.coracao{
+    animation: pulse 1s ease infinite;
+    display: inline-block;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
